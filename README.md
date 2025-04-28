@@ -2,7 +2,8 @@
 
 **#--------------------------------------------------------------------------------**
 
-**Pattern**            | **Purpose** 
+**Design Pattern**            | **Description** 
+
 **#-------------------------------------------------------------------------------**
 1. API Gateway          | Single entry point for all microservices 
 2. Database per Service | Each service owns its data 
@@ -12,5 +13,6 @@
 6. Service Discovery    | Locate services dynamically 
 7. Sidecar Pattern      | Offload tasks like logging, monitoring from main service 
 8. Strangler Pattern    | Gradual migration from monolith to microservices
+   
 **--------------------------------------------------------------------------------**
 
