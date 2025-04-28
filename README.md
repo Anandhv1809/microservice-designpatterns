@@ -29,6 +29,7 @@ Example Code : api-gateway/main.go
  How to Run
 Start API Gateway:
 go run main.go
+
 Test:
 curl http://localhost:8080/users/1
 curl http://localhost:8080/orders/100
